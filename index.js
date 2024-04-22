@@ -10,7 +10,7 @@ const saltRounds = 10;
 try {
   console.log("Data Base Connected Successully");
   let URI =
-    "mongodb+srv://arpitvermaetw:xT3JaNpWGSabOHPC@innerdata.v6pwutf.mongodb.net/innerdata";
+    "mongodb+srv://arpitvermaetw:xT3JaNpWGSabOHPC@innerdata.v6pwutf.mongodb.net/innerdata2";
 
   mongoose.connect(URI);
 } catch (error) {
